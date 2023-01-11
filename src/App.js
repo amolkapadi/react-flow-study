@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+// import Demo6 from './AddNodebtn5/Demo6';
 import './App.css';
-
+import DnDFlow from './DragandDrop/DnDFlow';
+// import DemoUpdate from './UpdateNode/DemoUpdate';
+// import Demo3 from './CustomNode3/Demo3';
+// import Demo4 from './CustomNode3/Demo4';
+// import Demo2 from './HandleChange2/Demo2';
+// import Demo from './Installation1/Demo';
+// import Demo5 from './SubFlows4/Demo5'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div style={{height:'100vh'}}>
+      {/* <Demo /> */}
+    {/* <Demo2 /> */}
+    {/* <Demo3 /> */}
+    {/* <Demo4 /> */}
+    {/* <Demo5 /> */}
+    {/* <Demo6 /> */}
+    {/* <DemoUpdate /> */}
+    <DnDFlow />
+  
+   </div>
   );
 }
 

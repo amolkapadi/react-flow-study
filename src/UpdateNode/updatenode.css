@@ -1,0 +1,30 @@
+.updatenode__controls {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 4;
+    font-size: 12px;
+  }
+
+  .updatenode__controls label {
+    display: block;
+  }
+  
+  .updatenode__bglabel {
+    margin-top: 10px;
+  }
+  
+  .updatenode__checkboxwrapper {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+.react-flow__node.circle {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
