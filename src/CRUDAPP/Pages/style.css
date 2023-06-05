@@ -1,0 +1,40 @@
+/***********Alldata********/
+.bg-primary{
+    height: auto !important;
+    padding-bottom: 100px !important;
+}
+.btn-primary{
+    color: black;
+}
+
+/*******Add User****/
+.form-control, .form-select{
+    border-radius: 0;
+}
+
+.submit-btn{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    padding: 8px;
+    width: 120px;
+    border-radius: 0px;
+}
+
+.bg-primary2{
+    color: white !important;
+    background-color: #0d6efd ;
+    height: 100vh !important;
+}
+.bi{
+    font-size: 20px !important;
+    cursor: pointer;
+    color: #0d6efd !important;
+} 
+
+/***view ***/
+.bg-primary3{
+    height: 100vh !important;
+    background-color: #0d6efd ;
+
+}

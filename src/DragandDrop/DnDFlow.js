@@ -1,10 +1,12 @@
 import React, { useState, useRef, useCallback } from 'react';
 import ReactFlow, {
+  Edge
   ReactFlowProvider,
   addEdge,
   useNodesState,
   useEdgesState,
   Controls,
+  Background
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 
@@ -29,6 +31,10 @@ const DnDFlow = () => {
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
   const [reactFlowInstance, setReactFlowInstance] = useState(null);
+
+
+  //background
+  const [variant, setVariant] = useState('cross');
 
   //update Node 
   const [editValue, setEditValue] = useState(nodes.data)
@@ -107,6 +113,7 @@ const DnDFlow = () => {
       <ReactFlowProvider>
         <div className="reactflow-wrapper" ref={reactFlowWrapper}>
           <ReactFlow
+          
             nodes={nodes}
             edges={edges}
             onNodeClick={(e, val) => onNodeClick(e, val)}
@@ -118,6 +125,7 @@ const DnDFlow = () => {
             onDragOver={onDragOver}
             fitView
           >
+              <Background color="#99b3ec" variant={variant} />
             <Controls />
           </ReactFlow>
         </div>

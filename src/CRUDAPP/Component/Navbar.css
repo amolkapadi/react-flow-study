@@ -1,0 +1,17 @@
+.bg-light{
+    background-color: #0d6efd !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.btn-primary{
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    border-radius: 50px;
+}
+
+.bi-collection-fill{
+    color: white;
+    border-color: white !important;
+}
